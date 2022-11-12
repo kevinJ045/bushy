@@ -96,7 +96,7 @@ Setting:
 
 Saving:
 ```bash
-./bushy.sh desk set [SetUpName] [ThemeName]
+./bushy.sh desk save [SetUpName] [ThemeName]
 ```
 **[ThemeName]** here should be a valid theme from bushy themes.
 
