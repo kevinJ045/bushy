@@ -1,0 +1,15 @@
+#!/bin/sh
+
+
+if [[ $1 == "all" ]] ; then
+	echo opening all
+	exec google-chrome &
+	exec nautilus &
+	exec tilda &
+	exec gnome-terminal
+else
+	echo opening main 3
+	exec nautilus &
+	exec tilda &
+	exec gnome-terminal
+fi

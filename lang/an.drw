@@ -1,0 +1,7 @@
+@v varb = "this is a string"
+
+@def fun > log $0 is fun
+
+# @in varb
+
+@state($varb) > fun this @else log sorry

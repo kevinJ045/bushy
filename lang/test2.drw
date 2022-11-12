@@ -1,0 +1,7 @@
+@pkg test
+@i test3.drw as main
+@v micro = echo hi
+^\necho hello
+^\necho what
+
+main.hehe thisiszero

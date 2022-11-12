@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+if [[ $1 == "gui" ]] ; then
+	python3 /home/bushyice/projects/bin/exec/theme/main.py $*
+elif [[ $1 == "custom" ]] ; then
+	gnome-tweaks
+else
+	node /home/bushyice/projects/bin/exec/theme/index.js $*
+fi

@@ -1,0 +1,13 @@
+{
+	"enable": [
+		"dash-to-dock@micxgx.gmail.com",
+		"io.github.mreditor.gnome-shell-extensions.scroll-panel",
+		"babar@fthx",
+		"logomenu@aryan_k"
+	],
+	"disable": [
+		"dash-to-panel@jderose9.github.com",
+		"arcmenu@arcmenu.com"
+	],
+	"theme": "catp"
+}

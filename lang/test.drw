@@ -1,0 +1,42 @@
+@pkg test
+opt { "rmv": true, "gui": true }
+# @i test2.drw
+
+@v a = s
+
+# @def sayhi > exec $_
+
+# log $_arg_
+
+@def hm > put $0 hi wow
+
+@v ss = $hm($a)
+
+@state("$ss" == "s hi wow") > log yep
+^@else log nope
+
+# sayhi $_arg_
+
+# exec echo hi
+
+# 
+# @v z = 1
+# @v s = this will calculate: calc(1 + 1)
+# @v num = calc(1 + 1)
+# 
+# log $test.pro
+# 
+# @def sayhi > log $0 $1
+# 
+# @state($z == 1) > log hi
+# ^hello
+# 
+# sayhi hello ehh
+# 
+# exec echo hi
+# 
+# echo hi
+# log $s, number is: $z
+# log calc($num + $z)
+# log $num
+# log $z
