@@ -8,8 +8,6 @@ i think u know what i am trying to say...
 
 Mostly it only works for gnome, but i think other than theme management things will work on other DEs too... **I Think**
 
-OHH also sorry about the java classes btw... i lost the actual code this is all i have now
-
 ## Install
 ```bash
 git clone https://github.com/kevinJ045/bushy.git
